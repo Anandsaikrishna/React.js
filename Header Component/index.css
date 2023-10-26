@@ -1,0 +1,58 @@
+body{
+    padding: 1px;
+    margin: 0px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(27, 162, 144);
+    align-items: center;
+}
+.Headerlogo{
+    width: 25px;
+    height: 25px;
+
+}
+ul{
+    list-style-type: none;
+    color: black;
+}
+li{
+    display: inline;
+    padding: 50px;
+    
+}
+ul li a{
+    font-size: 800;
+}
+.Cards{
+    border: 1px solid;
+    display: flex ;
+    justify-content: space-evenly;
+    padding: 10px;
+    color: blueviolet;
+}
+.card1:hover{
+    color:rgb(16, 182, 30);
+    transition: .5;
+    border: 2px solid;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.card1 image:hover{
+    color: aqua;
+
+    padding: 8px;
+    border-radius: 18px;
+    opacity: 0.1;
+
+}
+.card1 button{
+    height: 45px;
+    margin: 0 0 10px 35%;
+    text-align: center;
+}
+.p1{
+    text-align: center;
+    font-size: 25px;
+}
